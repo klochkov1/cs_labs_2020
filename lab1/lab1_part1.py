@@ -43,14 +43,15 @@ def main():
         print(f"Usage {sys.argv[0]} file1 file2 file3")
         exit(1)
     for f in files:
-        print(f.name + "\n")
-        print(f"File enthropy: {round(f.enthropy, 5)}")
-        print()
+        print("\n" + f.name + "\n")
+        print("File enthropy:        {:<12.3f} bits\n                      {:<12.3f} bytes\n".format(round(f.enthropy, 5), round(f.enthropy/8, 5)))
+        print("Information quantity: {:<12.3f} bits\n                      {:<12.3f} bytes\n".format(f.enthropy * f.chars_counter,  f.enthropy / 8 * f.chars_counter))
         original_size = os.path.getsize(f.name)
-        print("Orgignal: {:9d} bytes   100.0%".format(original_size))
+        print("Orgignal:             {:<9d}    bytes   100.0%".format(original_size))
         for ftype in [".tar.bz2", ".tar.gz", ".tar.xz", ".rar", ".zip"]:
-            compressed_size = os.path.getsize(f.name + ftype)
-            print("{:9s} {:9d} bytes    {:3.1f}%".format(ftype, compressed_size, compressed_size / original_size * 100 ))
+            if os.path.isfile(f.name + ftype):
+                compressed_size = os.path.getsize(f.name + ftype)
+                print("{:9s}             {:<9d}    bytes    {:<3.1f}%".format(ftype, compressed_size, compressed_size / original_size * 100 ))
         print()
         print("Chars probabilites:\n")
         for c in sorted(f.probabilites):

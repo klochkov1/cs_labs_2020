@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 cd "$1"
-for file in *.txt;
+for file in *.txt.base64;
 do 
 	rar a "$file.rar" $file
 	zip -r "$file.zip" $file
