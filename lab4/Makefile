@@ -1,4 +1,4 @@
-.PHONY : all debug dgdb clean
+.PHONY : all debug clean
 
 AS_FLAGS = 
 LD_FLAGS = --static
