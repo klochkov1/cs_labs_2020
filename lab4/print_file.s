@@ -59,3 +59,4 @@ _start:
 exit:
 	movq $SYS_EXIT, %rax
 	syscall
+	
