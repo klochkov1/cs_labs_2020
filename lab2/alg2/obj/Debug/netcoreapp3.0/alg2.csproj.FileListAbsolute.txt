@@ -1,0 +1,11 @@
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2.deps.json
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2.runtimeconfig.json
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2.runtimeconfig.dev.json
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2.dll
+/home/pldt/Univ/cs/lab2/alg2/bin/Debug/netcoreapp3.0/alg2.pdb
+/home/pldt/Univ/cs/lab2/alg2/obj/Debug/netcoreapp3.0/alg2.csprojAssemblyReference.cache
+/home/pldt/Univ/cs/lab2/alg2/obj/Debug/netcoreapp3.0/alg2.AssemblyInfoInputs.cache
+/home/pldt/Univ/cs/lab2/alg2/obj/Debug/netcoreapp3.0/alg2.AssemblyInfo.cs
+/home/pldt/Univ/cs/lab2/alg2/obj/Debug/netcoreapp3.0/alg2.dll
+/home/pldt/Univ/cs/lab2/alg2/obj/Debug/netcoreapp3.0/alg2.pdb
