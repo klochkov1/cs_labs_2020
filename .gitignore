@@ -2,3 +2,5 @@ lab1/test_files/*
 !lab1/test_files/*.txt
 *.o
 a.out
+*.vscode
+*.bin/*
